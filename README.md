@@ -27,8 +27,11 @@ pip install opencv-python numpy
 
 ### Notas
    -El script trabaja con el promedio de color en un area de 5x5 píxeles alrededor del clic.
+   
    -Se ignora la banda de tolerancia
+   
    -La detección de color se basa en la distancia euclidea entre colores estandar y el color promedio clicado
+   
 ```
 calculadora-resistencia/
 ├── resistencia.jpg
@@ -38,5 +41,9 @@ calculadora-resistencia/
 
 ### Mejoras futuras
    -Deteccion automatica de bandas
+   
    -Soporte para mas bandas
+   
    -Mejora de precisión con HSV o modelos de aprendizaje automático
+
+   
